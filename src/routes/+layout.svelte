@@ -8,7 +8,7 @@
 <header>
 	<nav class="flex justify-between items-center">
 		<a href="/">
-			<img class="h-16" src="https://i.imgur.com/BTYJrKC.png" alt="BusinessGPT logo" />
+			<img class="h-16" src="https://imgur.com/a/XEapHJE" alt="BusinessGPT logo" />
 		</a>
 		<button class="btn" on:click={() => goto('/')}>Go Home</button>
 	</nav>
