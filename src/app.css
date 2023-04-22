@@ -120,6 +120,7 @@ button:disabled:hover {
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
+  width: 100%; /* add this */
 }
 
 .btn {
@@ -127,8 +128,8 @@ button:disabled:hover {
   color: white;
   border: none;
   border-radius: 0.25rem;
-  padding: 0.5rem 1rem;
-  margin: 0 0.5rem;
+  padding: 0.5rem 0.75rem; /* adjust padding */
+  margin: 0 0.25rem; /* adjust margin */
   cursor: pointer;
 }
 
