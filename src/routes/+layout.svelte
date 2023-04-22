@@ -6,12 +6,12 @@
 </script>
 
 <header>
-	<nav class="flex justify-between items-center">
-		<a href="/">
-			<img class="h-16" src="https://imgur.com/Gz87qWr" alt="BusinessGPT logo" />
-		</a>
-		<button class="btn" on:click={() => goto('/')}>Go Home</button>
-	</nav>
+  <nav class="flex justify-between items-center">
+    <a href="/">
+      <blockquote class="imgur-embed-pub" lang="en" data-id="a/XEapHJE" data-context="false"><a href="//imgur.com/a/XEapHJE"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+    </a>
+    <button class="btn" on:click={() => goto('/')}>Go Home</button>
+  </nav>
 </header>
 
 <div class="flex flex-col items-center max-w-2xl mx-auto">
