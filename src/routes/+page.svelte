@@ -86,11 +86,6 @@
     showChatInterface = true;
   }
   
-  onMount(() => {
-    const inputField = document.querySelector('.input');
-    inputField.focus();
-  });
-  
 </script>
 
 <style>
