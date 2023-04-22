@@ -85,6 +85,12 @@
     console.log(`Selected ${name}`);
     showChatInterface = true;
   }
+  
+  onMount(() => {
+    const inputField = document.querySelector('.input');
+    inputField.focus();
+  });
+  
 </script>
 
 <style>
@@ -96,6 +102,15 @@
 <main>
   <div class="chatbot-wrapper">
     <div class="flex flex-col min-h-screen pt-4 w-full px-8 items-center gap-2">
+       <div class="btn-container">
+        <button class="btn" on:click={() => selectChatBot('chatbot1')}>Chatbot 1</button>
+        <button class="btn" on:click={() => selectChatBot('chatbot2')}>Chatbot 2</button>
+        <button class="btn" on:click={() => selectChatBot('chatbot3')}>Chatbot 3</button>
+        <button class="btn" on:click={() => selectChatBot('chatbot4')}>Chatbot 4</button>
+        <button class="btn" on:click={() => selectChatBot('chatbot5')}>Chatbot 5</button>
+        <button class="btn" on:click={() => selectChatBot('chatbot6')}>Chatbot 6</button>
+      </div>
+      
       {#if !showChatInterface}
         <section class="...">
           {#each chatBotNames as name}
