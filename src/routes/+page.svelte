@@ -73,12 +73,12 @@
 
   let showChatInterface = false;
   const chatBotNames = [
-    'Chatbot 1',
-    'Chatbot 2',
-    'Chatbot 3',
-    'Chatbot 4',
-    'Chatbot 5',
-    'Chatbot 6',
+    'Business Operations & Efficiency AI',
+    'Customer Relationship & Change Management AI',
+    'Data-Driven Decision Making & Analytics AI',
+    'Innovation, Sustainability & Growth AI',
+    'Sales, Marketing & Customer Experience AI',
+    'Workforce Management & Development AI',
   ];
 
   function selectChatBot(name) {
